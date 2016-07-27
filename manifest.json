@@ -1,0 +1,12 @@
+{
+  "name": "WTF",
+  "description": "wtf",
+  "version": "2.0",
+  "content_scripts": [
+    {
+	  "matches": ["<all_urls>"],
+	  "js": ["injection.js"]
+	}
+  ],
+  "manifest_version": 2
+}
